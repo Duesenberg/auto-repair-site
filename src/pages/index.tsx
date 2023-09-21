@@ -2,13 +2,25 @@ import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import Navigation from "../components/Navigation";
 import logoIcon from '../icons/logo-icon.svg';
+import HomePageHero from "../components/HomePageHero";
+import HomePageServices from "../components/HomePageServices";
+import HomePageAbout from "../components/HomePageAbout";
+import HomePageReviews from "../components/HomePageReviews";
+import CallToAction from "../components/CallToAction";
+import Footer from "../components/Footer";
 
 const HomePage: React.FC<PageProps> = () => {
   return (
       <div id="home-page">
       <Navigation />
       <main>
+        <HomePageHero />
+        {/* <HomePageServices />
+        <HomePageAbout />
+        <HomePageReviews />
+        <CallToAction /> */}
       </main>
+      {/* <Footer /> */}
     </div>
   )
 }
