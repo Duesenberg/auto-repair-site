@@ -1,55 +1,44 @@
 import React from 'react';
-import quoteIcon from '../../icons/quote-left-svgrepo-com.svg';
+import customerImgOne from '../images/customer-1.jpg';
+import customerImgTwo from '../images/customer-2.jpg';
 
 function HomePageReviews() {
   return(
     <section>
-      <div id="homePageReviews" className="relative flex flex-col px-6 py-8 gap-10 bg-gray-100 dark:bg-gray-900 md:px-10 md:py-16 bg-repeat bg-center">
+      <div id="homePageReviews" className="relative flex flex-col items-center px-6 py-8 gap-10 bg-gray-100 dark:bg-gray-900 md:px-10 md:py-16 bg-repeat bg-center">
         {/* Decorative Divs */}
         {/* Top */}
-        <div className="opacity-40 absolute top-0 left-0 h-64 z-0 w-full bg-gradient-to-b from-sky-500 dark:from-pink-950 to-transparent"
+        <div className="absolute top-0 left-0 h-52 z-0 w-full bg-orange-300"
         ></div>
         {/* Bottom */}
-        <div className="opacity-40 absolute bottom-0 left-0 h-64 z-0 w-full bg-gradient-to-t from-sky-500 dark:from-pink-950 to-transparent"
+        <div className="opacity-70 absolute bottom-0 left-0 h-64 z-0 w-full bg-gradient-to-t from-orange-500 dark:from-pink-950 to-transparent"
         ></div>
         {/* Decorative Divs ^ */}
         
-        <div className="flex flex-col gap-4 z-10">
-          <span className="uppercase text-start text-sm text-gray-900 dark:text-gray-100 font-bold lg:text-base">Reviews</span>
-          <h2 className="text-4xl text-left text-gray-900 dark:text-gray-100 font-bold lg:text-5xl">What Our Customers Think</h2>
-          <p className="text-base text-justify text-gray-900 dark:text-gray-100 lg:text-lg">
-            Below are some of the reviews from our customers. Check them out and see what the people we have worked with have to say about our services.
-          </p>
-        </div>
-        <ul className="flex flex-col gap-8 items-center md:flex-row md:flex-wrap md:justify-around md:items-stretch z-10">
+        <ul className="flex flex-col p-4 md:p-8 xl:p-10 gap-8 items-center md:flex-row md:flex-wrap md:justify-around md:items-stretch z-10 bg-gray-100 bg-opacity-50">
           <li className="review-card">
-            <img src={quoteIcon} alt="quote icon" aria-hidden="true" loading="lazy" decoding="async" 
-            className="dark:invert w-20 h-auto self-end" />
-            <h3 className="review-card-title">Excellent communication</h3>
+            <img src={customerImgOne} alt="quote icon" aria-hidden="true" loading="lazy" decoding="async" 
+            className="w-20 h-20 object-cover rounded-full self-center mt-8 mb-4" />
             <p className="service-card-text">
-              Had a superb experience with the folks at ITBuddy. They value communication and were available 24/7, they are very professional. I highly reccomend their services!
+              "Had to service my car so I decided to go to GearHeads for the job. Fast and cheap!"
             </p>
 
             <div className="service-card-person">
-              <span className="service-card-person-name">Steven</span>
-              <span className="service-card-person-title">Project Manager</span>
+              <span className="service-card-person-title">Maria</span>
             </div>
           </li>
-          
+
           <li className="review-card">
-            <img src={quoteIcon} alt="quote icon" aria-hidden="true" loading="lazy" decoding="async" 
-            className="dark:invert w-20 h-auto self-end" />
-            <h3 className="review-card-title">Very fast and efficient</h3>
+            <img src={customerImgTwo} alt="quote icon" aria-hidden="true" loading="lazy" decoding="async" 
+            className="w-20 h-20 object-cover rounded-full self-center mt-8 mb-4" />
             <p className="service-card-text">
-              Hired ITBuddies for a project that was due in a few days. Had the job done the next day, which I never expected. They had the project done very quickly, and with high quality as well. Highly recommend.
+              "Started having problems with my brakes out of nowhere. Called up GearHeads, they arrived very fast and got rid of my problem. Highly reccomend them."
             </p>
 
             <div className="service-card-person">
-              <span className="service-card-person-name">Alison</span>
-              <span className="service-card-person-title">Startup Owner</span>
+              <span className="service-card-person-title">Joe</span>
             </div>
           </li>
-
         </ul>
 
         <a href="#/reviews" 
