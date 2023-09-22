@@ -69,7 +69,7 @@ const Navigation = () => {
   }, [darkMode])
   
   return(
-    <header className="sticky top-0 left-0 bg-orange-100 dark:bg-gray-900 z-20">
+    <header className="sticky top-0 left-0 bg-gray-100 dark:bg-gray-900 z-20">
       <div 
       className="navigation-container flex justify-between items-center px-4 py-4 shadow-md shadow-gray-500 dark:shadow-gray-800 md:px-10 lg:justify-center lg:gap-60 xl:justify-between xl:px-40">
         {/* Nav Logo */}
@@ -109,7 +109,7 @@ const Navigation = () => {
 
             {/* Nav Links */}
             <div
-            className={'absolute flex items-stretch justify-center w-screen top-12 -right-4  px-10 bg-orange-100 dark:bg-gray-900 z-20 overflow-hidden transition-all duration-500 ease-in-out md:transition-none shadow-md shadow-gray-500 md:static md:h-auto md:w-full md:bg-transparent md:shadow-none ' + (!menuVisible ? "h-0" : "h-60")}>
+            className={'absolute flex items-stretch justify-center w-screen top-12 -right-4  px-10 bg-gray-200 dark:bg-gray-900 z-20 overflow-hidden transition-all duration-500 ease-in-out md:transition-none shadow-md shadow-gray-500 md:static md:h-auto md:w-full md:bg-transparent md:shadow-none ' + (!menuVisible ? "h-0" : "h-60")}>
               <ul className={"z-20 py-4 flex flex-col gap-2 items-stretch justify-around md:flex-row"}>
                 <li>
                   <a href="#/" id='home-navlink' className='header-nav-link'>Home</a>
