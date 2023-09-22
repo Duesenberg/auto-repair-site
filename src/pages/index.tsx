@@ -18,7 +18,7 @@ const HomePage: React.FC<PageProps> = () => {
         <HomePageServices />
         <HomePageAbout />
         <HomePageReviews />
-        {/* <CallToAction /> */}
+        <CallToAction />
       </main>
       {/* <Footer /> */}
     </div>
