@@ -20,7 +20,7 @@ const HomePage: React.FC<PageProps> = () => {
         <HomePageReviews />
         <CallToAction />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
