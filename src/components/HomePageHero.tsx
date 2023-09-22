@@ -15,7 +15,7 @@ function HomePageHero() {
         className="z-10 button-primary">
           Contact Us</a>
 
-        <div className="z-10 bg-opacity-30 p-5 flex flex-col items-center gap-3 justify-between mt-16 justify-self-end self-stretch md:flex-row md:gap-0 bg-orange-300">
+        <div className="z-10 bg-opacity-30 p-5 flex flex-col items-center gap-3 justify-between mt-16 justify-self-end self-stretch md:flex-row md:gap-0 bg-orange-400">
           <p className="hero-bottom-text border-b-2 md:border-b-0 md:border-r-2"
           >&#9733;  Mobile Convenience  &#9733;</p>
           <p className="hero-bottom-text border-b-2  md:border-b-0 md:border-r-2"
@@ -36,10 +36,6 @@ function HomePageHero() {
             alt="monitor" width="2250" height="1500" aria-hidden="true"
             className="object-cover h-full" />
         </picture>
-
-        {/* Decorative Divs */}
-        <div className="absolute bottom-0 left-0 h-52 z-0 w-full bg-gradient-to-t from-orange-500 dark:from-pink-950 to-transparent"
-        ></div>
       </div>
     </section>
   )
