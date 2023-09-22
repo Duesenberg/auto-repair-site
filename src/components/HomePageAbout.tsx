@@ -6,7 +6,7 @@ function HomePageAbout() {
   return(
     <section>
       <div className="lg:flex lg:flex-row-reverse">
-        <picture className="lg:flex-1 relative z-10 lg:border-t-8 lg:border-l-8 lg:border-b-8 lg:border-solid lg:border-gray-100">
+        <picture className="lg:flex-1 relative z-10 lg:border-t-8 lg:border-l-8 lg:border-b-8 lg:border-solid lg:border-gray-100 dark:lg:border-gray-800">
           {/* Mobile Image*/}
           <source media="(max-width: 600px)" srcSet={aboutUsBackgroundMobile} />
           {/* Tablet and above Image */}

@@ -71,7 +71,7 @@ const Navigation = () => {
   return(
     <header className="sticky top-0 left-0 bg-gray-100 dark:bg-gray-900 z-20">
       <div 
-      className="navigation-container flex justify-between items-center px-4 py-4 shadow-md shadow-gray-500 dark:shadow-gray-800 md:px-10 lg:justify-center lg:gap-60 xl:justify-between xl:px-40">
+      className="navigation-container flex justify-between items-center px-4 py-4 shadow-md shadow-gray-700 dark:shadow-gray-950 md:px-10 lg:justify-center lg:gap-60 xl:justify-between xl:px-40">
         {/* Nav Logo */}
         <a href='' aria-label="back to home" className="nav-logo">
           <img src={logo} aria-hidden="true" decoding="async"

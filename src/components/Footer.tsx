@@ -3,7 +3,7 @@ import logo from '../icons/logo-icon.svg';
 
 function Footer() {
   return(
-    <footer className='bg-gray-100'>
+    <footer className='bg-gray-100 dark:bg-gray-800'>
       <div className="p-8 flex flex-col gap-6 bg-gray-100 dark:bg-gray-800 md:flex-row md:justify-center md:gap-20 lg:gap-40 md:px-10 md:py-16">
         {/* Logo Group */}
         <div>
@@ -16,7 +16,7 @@ function Footer() {
         {/* Links */}
         <ul className="flex flex-col gap-1">
           <li className="mb-2">
-            <span className="uppercase text-start text-lg text-orange-500 dark:text-gray-100 font-bold lg:text-xl">Sitemap</span>
+            <span className="uppercase text-start text-lg text-orange-500 font-bold lg:text-xl">Sitemap</span>
           </li>
           <li>
             <a className="footer-nav-link" href="#/">Home</a>
@@ -38,7 +38,7 @@ function Footer() {
         {/* Contact Info */}
         <ul className="flex flex-col gap-1">
           <li className="mb-2">
-              <span className="uppercase text-start text-lg text-orange-500 dark:text-gray-100 font-bold">Contact</span>
+              <span className="uppercase text-start text-lg text-orange-500 font-bold">Contact</span>
           </li>
 
           <li>
@@ -69,7 +69,7 @@ function Footer() {
 
       </div>
       {/* Copyright */}
-      <div className="w-auto border-t border-orange-500 dark:border-sky-900 py-4 flex justify-center bg-gray-100 dark:bg-gray-800 mx-8">
+      <div className="w-auto border-t border-orange-500 py-4 flex justify-center bg-gray-100 dark:bg-gray-800 mx-8">
         <div>
           <span className="footer-copyright">© Copyright 2023 - </span>
           <a href="#/" className="footer-copyright-link text-center">Mariposa Web Services</a>

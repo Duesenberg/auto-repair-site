@@ -18,13 +18,13 @@ function HomePageServices() {
       <div id="homePageServices" className="flex flex-col items-center px-6 py-4 gap-10 bg-gray-100 dark:bg-gray-900 relative md:px-10 md:py-8 xl:px-20 bg-repeat bg-center">
         {/* Decorative Divs */}
         {/* Top */}
-        <div className="absolute top-0 left-0 h-96 z-0 w-full bg-gradient-to-b from-orange-500 dark:from-pink-950 to-transparent"
+        <div className="absolute top-0 left-0 h-96 z-0 w-full bg-gradient-to-b from-orange-500 dark:from-orange-800 to-transparent"
         ></div>
         {/* Bottom */}
-        <div className="absolute bottom-0 left-0 h-52 z-0 w-full bg-orange-300"
+        <div className="absolute bottom-0 left-0 h-52 z-0 w-full bg-orange-300 dark:bg-orange-800"
         ></div>
 
-        <div className="bg-gray-100 p-4 bg-opacity-50 flex flex-col gap-8 items-center z-10 md:p-8 md:grid md:grid-cols-2 md:justify-items-center md:gap-16 md:items-stretch xl:grid-cols-2 xl:px-10">
+        <div className="bg-gray-100 dark:bg-gray-900 dark:bg-opacity-50 p-4 bg-opacity-50 flex flex-col gap-8 items-center z-10 md:p-8 md:grid md:grid-cols-2 md:justify-items-center md:gap-16 md:items-stretch xl:grid-cols-2 xl:px-10">
           <a href="#/services" className="service-card">
             <div className="service-card-info-wrapper">
               <h3 className="service-card-info-title">Oil Change & Fluid Check</h3>
