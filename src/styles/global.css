@@ -81,3 +81,53 @@
 .footer-social-icon {
   @apply p-1 invert dark:invert-0 transition-all duration-500 after:w-0 after:h-full after:bg-sky-500 after:absolute after:top-0 after:left-0 after:-z-10 hover:after:w-full after:transition-all after:duration-500 after:ease-in-out before:w-0 before:h-full before:bg-sky-500 before:absolute before:top-0 before:right-0 before:-z-10 hover:before:w-full before:transition-all before:duration-500 before:ease-in-out before:rounded-md after:rounded-md hover:invert-0 hover:after:invert hover:before:invert dark:after:invert dark:before:invert
 }
+
+.about-us-ul {
+  @apply md:grid md:grid-cols-2 md:justify-items-center md:gap-16 md:items-stretch xl:grid-cols-2 xl:px-10
+}
+
+.about-us-li {
+  @apply mb-8 md:max-w-xs
+}
+
+.about-us-li-icon {
+  @apply w-16 h-auto mb-6 dark:invert
+}
+
+.about-us-li-heading {
+  @apply text-start text-lg font-bold text-sky-500 lg:text-xl mb-2
+}
+
+.about-us-li-text {
+  @apply text-justify text-base text-gray-900 dark:text-gray-100 lg:text-lg
+}
+
+.about-us-stats-li {
+  @apply flex gap-6 items-center max-w-xs md:w-full md:max-w-full md:justify-center p-6  md:p-3 bg-gray-100 dark:bg-gray-800 w-auto
+}
+
+/* For changing color of nav links depending on what page you're on */
+#home-page #home-navlink {
+  @apply after:w-full after:h-full after:bg-orange-500
+}
+
+#about-page #about-navlink {
+  @apply after:w-full after:h-full after:bg-orange-500
+}
+
+#services-page #services-navlink {
+  @apply after:w-full after:h-full after:bg-orange-500
+}
+
+#reviews-page #reviews-navlink {
+  @apply after:w-full after:h-full after:bg-orange-500
+}
+
+#contact-page #contact-navlink {
+  @apply after:w-full after:h-full after:bg-orange-500
+}
+
+/* Div with grate background */
+#grateBg {
+  background-image: url('../images/grate-background.png');
+}

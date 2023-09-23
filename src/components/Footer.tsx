@@ -46,7 +46,7 @@ function Footer() {
           </li>
 
           <li>
-              <a className="footer-nav-link" href="mailto:info@itbuddies.com">info@itbuddies.com</a>
+              <a className="footer-nav-link" href="mailto:info@itbuddies.com">info@gearheads.com</a>
           </li>
 
           {/* Social Media */}

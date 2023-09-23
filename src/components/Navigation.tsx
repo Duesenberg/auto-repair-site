@@ -112,19 +112,19 @@ const Navigation = () => {
             className={'absolute flex items-stretch justify-center w-screen top-12 -right-4  px-10 bg-gray-200 dark:bg-gray-900 z-20 overflow-hidden transition-all duration-500 ease-in-out md:transition-none shadow-md shadow-gray-500 md:static md:h-auto md:w-full md:bg-transparent md:shadow-none ' + (!menuVisible ? "h-0" : "h-60")}>
               <ul className={"z-20 py-4 flex flex-col gap-2 items-stretch justify-around md:flex-row"}>
                 <li>
-                  <a href="#/" id='home-navlink' className='header-nav-link'>Home</a>
+                  <a href="/" id='home-navlink' className='header-nav-link'>Home</a>
                 </li>
                 <li>
-                  <a href="#/about" id='about-navlink' className='header-nav-link'>About</a>
+                  <a href="/about" id='about-navlink' className='header-nav-link'>About</a>
                 </li>
                 <li>
-                  <a href="#/services" id='services-navlink' className='header-nav-link'>Services</a>
+                  <a href="/services" id='services-navlink' className='header-nav-link'>Services</a>
                 </li>
                 <li>
-                  <a href="#/reviews" id='reviews-navlink' className='header-nav-link'>Reviews</a>
+                  <a href="/reviews" id='reviews-navlink' className='header-nav-link'>Reviews</a>
                 </li>
                 <li>
-                  <a href="#/contact" id='contact-navlink' className='header-nav-link'>Contact</a>
+                  <a href="/contact" id='contact-navlink' className='header-nav-link'>Contact</a>
                 </li>
               </ul>
             </div>
