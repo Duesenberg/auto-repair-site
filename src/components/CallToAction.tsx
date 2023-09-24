@@ -5,7 +5,7 @@ import contactUsBg from '../images/contact-us.jpg';
 function CallToAction() {
   return(
     <section>
-      <div className="relative flex flex-col items-center p-8 gap-8 bg-gray-100 dark:bg-gray-950 bg-opacity-60 dark:bg-opacity-60 md:px-10 md:py-16 lg:py-20 xl:py-32 lg:gap-10 overflow-hidden">
+      <div className="relative flex flex-col items-center p-8 gap-8 bg-gray-100 dark:bg-gray-950 bg-opacity-40 dark:bg-opacity-60 md:px-10 md:py-16 lg:py-20 xl:py-32 lg:gap-10 overflow-hidden">
         <div className="items-center pb-8 flex flex-col gap-2">
           <span className="uppercase text-start text-sm text-gray-900 dark:text-gray-100 font-bold self-start lg:text-base md:self-center">Contact Us</span>
           <h2 className="text-4xl text-left text-gray-900 dark:text-gray-100 font-bold self-start lg:text-5xl md:self-center">Let Us Help You Out</h2>
