@@ -25,6 +25,11 @@ function ReviewsPageReviews() {
         <div className="absolute bottom-0 left-0 h-56 z-0 w-full bg-orange-500 dark:bg-orange-800"
         ></div>
         {/* Decorative Divs ^ */}
+
+        <div className="flex flex-col gap-4 z-10">
+          <span className="text-4xl text-left text-gray-100 font-bold lg:text-5xl">What People Say About Us</span>
+          <p className="my-4 text-justify text-base text-gray-100 lg:text-lg lg:w-1/2">Check out a few reviews from our customers. We always aim to deliver quality services, our customers are our #1 priority.</p>
+        </div>
         
         <ul className="flex flex-col p-4 md:p-8 xl:p-10 gap-8 items-center md:flex-row md:flex-wrap md:justify-around md:items-stretch z-10 bg-gray-100 bg-opacity-50 dark:bg-gray-900 dark:bg-opacity-50">
         <li className="review-card">
