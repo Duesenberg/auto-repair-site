@@ -2,7 +2,7 @@ import React from "react";
 import heroBackgroundMobile from '../images/hero-background-m.jpg';
 import heroBackground from '../images/hero-background.jpg';
 
-function HomePageHero() {
+function AboutPageHero() {
   return(
     <section>
       <div className="relative flex flex-col items-center p-10 pb-16 bg-gray-100 dark:bg-gray-950  dark:bg-opacity-60  bg-opacity-60 md:mx-auto lg:py-32 lg:gap-16">
@@ -26,4 +26,4 @@ function HomePageHero() {
   )
 }
 
-export default HomePageHero;
+export default AboutPageHero;

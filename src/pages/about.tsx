@@ -8,7 +8,7 @@ import AboutPageHero from '../components/AboutPageHero';
 import AboutPageAbout from "../components/AboutPageAbout";
 import AboutPageStats from "../components/AboutPageStats";
 
-const HomePage: React.FC<PageProps> = () => {
+const AboutPage: React.FC<PageProps> = () => {
   return (
       <div id="about-page">
       <Navigation />
@@ -23,7 +23,7 @@ const HomePage: React.FC<PageProps> = () => {
   )
 }
 
-export default HomePage;
+export default AboutPage;
 
 export const Head: HeadFC = () => (
   <>
