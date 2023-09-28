@@ -18,19 +18,19 @@ function Footer() {
           <li className="mb-2">
             <span className="uppercase text-start text-lg text-orange-500 font-bold lg:text-xl">Sitemap</span>
           </li>
-          <li>
+          <li className='footer-li'>
             <a className="footer-nav-link" href="/">Home</a>
           </li>
-          <li>
+          <li className='footer-li'>
             <a className="footer-nav-link" href="/about">About</a>
           </li>
-          <li>
+          <li className='footer-li'>
             <a className="footer-nav-link" href="/services">Services</a>
           </li>
-          <li>
+          <li className='footer-li'>
             <a className="footer-nav-link" href="/reviews">Reviews</a>
           </li>
-          <li>
+          <li className='footer-li'>
             <a className="footer-nav-link" href="/contact">Contact</a>
           </li>
         </ul>
@@ -41,11 +41,11 @@ function Footer() {
               <span className="uppercase text-start text-lg text-orange-500 font-bold">Contact</span>
           </li>
 
-          <li>
+          <li className='footer-li'>
               <a className="footer-nav-link" href="tel: 123-456-7890">(123) 456-7890</a>
           </li>
 
-          <li>
+          <li className='footer-li'>
               <a className="footer-nav-link" href="mailto:info@itbuddies.com">info@gearheads.com</a>
           </li>
 

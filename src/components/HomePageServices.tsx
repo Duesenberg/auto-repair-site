@@ -27,7 +27,7 @@ function HomePageServices() {
         <div className="bg-gray-100 dark:bg-gray-900 dark:bg-opacity-50 p-4 bg-opacity-50 flex flex-col gap-8 items-center z-10 md:p-8 md:grid md:grid-cols-2 md:justify-items-center md:gap-16 md:items-stretch xl:grid-cols-2 xl:px-10">
           <a href="/services" className="service-card">
             <div className="service-card-info-wrapper">
-              <h3 className="service-card-info-title">Oil Change & Fluid Check</h3>
+              <h2 className="service-card-info-title">Oil Change & Fluid Check</h2>
               <p className="service-card-info-text">Always keep your engine and other parts well lubricated. Let us do the dirty work, hassle free.</p>
               <ul className='flex flex-col gap-4 self-start'>
                 <li className='service-card-list-item'>
@@ -49,7 +49,7 @@ function HomePageServices() {
 
           <a href="/services" className="service-card">
             <div className="service-card-info-wrapper">
-              <h3 className="service-card-info-title">Brake Repair and Inspection</h3>
+              <h2 className="service-card-info-title">Brake Repair and Inspection</h2>
               <p className="service-card-info-text">Safety first. Get your brake system diagnosed and needed repairs made.</p>
               <ul className='flex flex-col gap-4 self-start'>
                 <li className='service-card-list-item'>
@@ -71,7 +71,7 @@ function HomePageServices() {
 
           <a href="/services" className="service-card">
             <div className="service-card-info-wrapper">
-              <h3 className="service-card-info-title">Engine Diagnostics and Tune-Up</h3>
+              <h2 className="service-card-info-title">Engine Diagnostics and Tune-Up</h2>
               <p className="service-card-info-text">Keep your engine in good health with our expert services.</p>
               <ul className='flex flex-col gap-4 self-start'>
                 <li className='service-card-list-item'>
@@ -93,7 +93,7 @@ function HomePageServices() {
 
           <a href="/services" className="service-card">
             <div className="service-card-info-wrapper">
-              <h3 className="service-card-info-title">Air Conditioning Service & Repair</h3>
+              <h2 className="service-card-info-title">Air Conditioning Service & Repair</h2>
               <p className="service-card-info-text">Our experts will make sure your rides are always comfortable.</p>
               <ul className='flex flex-col gap-4 self-start'>
                 <li className='service-card-list-item'>
