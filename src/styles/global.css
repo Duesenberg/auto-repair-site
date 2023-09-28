@@ -134,7 +134,7 @@
 }
 
 .form-input {
-  @apply bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-md border border-solid border-gray-700 dark:border-gray-100 px-4 py-2 text-base lg:text-lg font-normal hover:border-orange-500 dark:hover:border-orange-500 transition-colors duration-300 outline-orange-500 dark:outline-orange-500 shadow-sm shadow-gray-600 dark:shadow-gray-950
+  @apply bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 border border-solid border-gray-700 dark:border-gray-100 px-4 py-2 text-base lg:text-lg font-normal hover:border-orange-500 dark:hover:border-orange-500 transition-all duration-500 outline-orange-500 dark:outline-orange-500 shadow-sm hover:shadow-md shadow-gray-600 dark:shadow-gray-950 hover:shadow-gray-600 dark:hover:shadow-gray-950
 }
 
 .contact-bg-text {
