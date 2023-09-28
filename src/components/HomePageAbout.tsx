@@ -12,7 +12,7 @@ function HomePageAbout() {
           {/* Tablet and above Image */}
           <source media="(min-width: 601px)" srcSet={aboutUsBackground} />
           <img loading="lazy" decoding="async" src={aboutUsBackground}
-          className="lg:object-cover lg:h-full" />
+          className="lg:object-cover lg:h-full" alt='mechanic working on car' />
         </picture>
 
         <div className="lg:flex-1 relative bg-orange-300 dark:bg-gray-800">
@@ -28,7 +28,7 @@ function HomePageAbout() {
             <p className="mb-8 text-justify text-base text-gray-900 dark:text-gray-100 lg:text-lg">
               Founded by a team of seasoned automotive enthusiasts, GearHeads is not just a company – it's a lifestyle. We understand the profound connection between you and your vehicle, and that's why we've dedicated ourselves to providing top-notch, hassle-free automotive care.
             </p>
-            <a href="#/about" 
+            <a href="/about" 
             className="relative z-10 button-primary self-start">
               More About GearHeads</a>
           </div>

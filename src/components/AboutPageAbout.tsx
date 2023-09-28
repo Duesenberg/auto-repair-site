@@ -32,7 +32,7 @@ function AboutPageAbout () {
           {/* Tablet and above Image */}
           <source media="(min-width: 601px)" srcSet={aboutUsBg} />
           <img loading="lazy" decoding="async" src={aboutUsBg}
-          className="lg:object-cover lg:h-full" />
+          className="lg:object-cover lg:h-full" alt='two mechanics' />
         </picture>
 
         {/* Description */}
@@ -83,7 +83,7 @@ function AboutPageAbout () {
               </li>
             </ul>
 
-            <a href="#/contact" 
+            <a href="/contact" 
             className="relative z-10 button-primary self-start">
               Contact Us</a>
           </div>

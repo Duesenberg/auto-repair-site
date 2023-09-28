@@ -11,7 +11,7 @@ function HomePageHero() {
         <p className="mx-10 text-gray-900 dark:text-gray-100  text-xl text-center md:max-w-2xl lg:text-2xl">
         Worry-free, expert mobile car repair and maintenance services right at your doorstep
         </p>
-        <a href="#/contact" 
+        <a href="/contact" 
         className="z-10 button-primary">
           Contact Us</a>
 

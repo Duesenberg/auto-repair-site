@@ -12,7 +12,7 @@ function CallToAction() {
           <p className="mt-8 mb-2 text-justify text-base text-gray-900 dark:text-gray-100 md:text-center lg:text-lg lg:mx-40 xl:mx-80">
             Contact us by sending us an e-mail and letting us know about what you need, or just give us a call. We will get back to you as soon as we can!
           </p>
-          <a href="#/contact" className="button-primary self-start md:self-center lg:mt-10">
+          <a href="/contact" className="button-primary self-start md:self-center lg:mt-10">
             Contact Us</a>
         </div>
 

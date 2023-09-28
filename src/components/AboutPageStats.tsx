@@ -23,7 +23,7 @@ function AboutPageStats () {
 
             <div className="flex flex-col gap-1 items-start">
                 <span className="uppercase text-start text-lg text-gray-900 dark:text-gray-100 font-bold">Address</span>
-                <a href="#/" className="footer-nav-link hover:text-orange-500" target="_blank">Los Angeles, CA</a>
+                <a href="/" className="footer-nav-link hover:text-orange-500" target="_blank">Los Angeles, CA</a>
             </div>
         </li>
 

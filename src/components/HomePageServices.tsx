@@ -25,21 +25,21 @@ function HomePageServices() {
         ></div>
 
         <div className="bg-gray-100 dark:bg-gray-900 dark:bg-opacity-50 p-4 bg-opacity-50 flex flex-col gap-8 items-center z-10 md:p-8 md:grid md:grid-cols-2 md:justify-items-center md:gap-16 md:items-stretch xl:grid-cols-2 xl:px-10">
-          <a href="#/services" className="service-card">
+          <a href="/services" className="service-card">
             <div className="service-card-info-wrapper">
               <h3 className="service-card-info-title">Oil Change & Fluid Check</h3>
               <p className="service-card-info-text">Always keep your engine and other parts well lubricated. Let us do the dirty work, hassle free.</p>
               <ul className='flex flex-col gap-4 self-start'>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={engineIcon} alt="" />
+                  <img className='sc-li-icon' src={engineIcon} alt="engine" />
                   <p className='sc-li-txt'>Engine longevity</p>
                 </li>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={wrenchIcon} alt="" />
+                  <img className='sc-li-icon' src={wrenchIcon} alt="wrench" />
                   <p className='sc-li-txt'>Expert oil change</p>
                 </li>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={oilIcon} alt="" />
+                  <img className='sc-li-icon' src={oilIcon} alt="oil canister" />
                   <p className='sc-li-txt'>Quality oil products</p>
                 </li>
               </ul>
@@ -47,21 +47,21 @@ function HomePageServices() {
             </div>
           </a>
 
-          <a href="#/services" className="service-card">
+          <a href="/services" className="service-card">
             <div className="service-card-info-wrapper">
               <h3 className="service-card-info-title">Brake Repair and Inspection</h3>
               <p className="service-card-info-text">Safety first. Get your brake system diagnosed and needed repairs made.</p>
               <ul className='flex flex-col gap-4 self-start'>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={tyreIcon} alt="" />
+                  <img className='sc-li-icon' src={tyreIcon} alt="tyre" />
                   <p className='sc-li-txt'>Brake diagnostics/repairs</p>
                 </li>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={repairIcon} alt="" />
+                  <img className='sc-li-icon' src={repairIcon} alt="repair" />
                   <p className='sc-li-txt'>Brake pad replacement</p>
                 </li>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={safeIcon} alt="" />
+                  <img className='sc-li-icon' src={safeIcon} alt="safety" />
                   <p className='sc-li-txt'>Safety and peace of mind</p>
                 </li>
               </ul>
@@ -69,21 +69,21 @@ function HomePageServices() {
             </div>
           </a>
 
-          <a href="#/services" className="service-card">
+          <a href="/services" className="service-card">
             <div className="service-card-info-wrapper">
               <h3 className="service-card-info-title">Engine Diagnostics and Tune-Up</h3>
               <p className="service-card-info-text">Keep your engine in good health with our expert services.</p>
               <ul className='flex flex-col gap-4 self-start'>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={diagIcon} alt="" />
+                  <img className='sc-li-icon' src={diagIcon} alt="diagnostics" />
                   <p className='sc-li-txt'>State-of-the-art diagnostics</p>
                 </li>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={fuelIcon} alt="" />
+                  <img className='sc-li-icon' src={fuelIcon} alt="fuel" />
                   <p className='sc-li-txt'>Fuel system cleaning</p>
                 </li>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={powerIcon} alt="" />
+                  <img className='sc-li-icon' src={powerIcon} alt="bolt" />
                   <p className='sc-li-txt'>Improved efficiency and power</p>
                 </li>
               </ul>
@@ -91,21 +91,21 @@ function HomePageServices() {
             </div>
           </a>
 
-          <a href="#/services" className="service-card">
+          <a href="/services" className="service-card">
             <div className="service-card-info-wrapper">
               <h3 className="service-card-info-title">Air Conditioning Service & Repair</h3>
               <p className="service-card-info-text">Our experts will make sure your rides are always comfortable.</p>
               <ul className='flex flex-col gap-4 self-start'>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={comfIcon} alt="" />
+                  <img className='sc-li-icon' src={comfIcon} alt="comfort" />
                   <p className='sc-li-txt'>Stay comfortable in all seasons</p>
                 </li>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={fanIcon} alt="" />
+                  <img className='sc-li-icon' src={fanIcon} alt="fan" />
                   <p className='sc-li-txt'>A/C system diagnostics</p>
                 </li>
                 <li className='service-card-list-item'>
-                  <img className='sc-li-icon' src={iceIcon} alt="" />
+                  <img className='sc-li-icon' src={iceIcon} alt="snowflake" />
                   <p className='sc-li-txt'>Efficient cooling & air circulation</p>
                 </li>
               </ul>

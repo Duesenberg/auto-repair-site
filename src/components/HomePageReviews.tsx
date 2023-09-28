@@ -17,7 +17,7 @@ function HomePageReviews() {
         
         <ul className="flex flex-col p-4 md:p-8 xl:p-10 gap-8 items-center md:flex-row md:flex-wrap md:justify-around md:items-stretch z-10 bg-gray-100 bg-opacity-50 dark:bg-gray-900 dark:bg-opacity-50">
           <li className="review-card">
-            <img src={customerImgOne} alt="quote icon" aria-hidden="true" loading="lazy" decoding="async" 
+            <img src={customerImgOne} alt="picture of person" aria-hidden="true" loading="lazy" decoding="async" 
             className="w-20 h-20 object-cover rounded-full self-center mt-8 mb-4" />
             <p className="service-card-text">
               "Had to service my car so I decided to go to GearHeads for the job. Fast and cheap!"
@@ -29,7 +29,7 @@ function HomePageReviews() {
           </li>
 
           <li className="review-card">
-            <img src={customerImgTwo} alt="quote icon" aria-hidden="true" loading="lazy" decoding="async" 
+            <img src={customerImgTwo} alt="picture of person" aria-hidden="true" loading="lazy" decoding="async" 
             className="w-20 h-20 object-cover rounded-full self-center mt-8 mb-4" />
             <p className="service-card-text">
               "Started having problems with my brakes out of nowhere. Called up GearHeads, they arrived very fast and got rid of my problem. Highly reccomend them."
@@ -41,7 +41,7 @@ function HomePageReviews() {
           </li>
         </ul>
 
-        <a href="#/reviews" 
+        <a href="/reviews" 
         className="button-primary self-start lg:self-center z-10">
           Read more reviews</a>
       </div>
